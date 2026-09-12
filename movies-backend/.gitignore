@@ -1,0 +1,20 @@
+
+# Dependencies
+
+node_modules/
+
+# Environment variables (Crucial for API security)
+
+.env
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+
+.DS_Store
+
+By adding `.env` to this file, you ensure your **TMDB API key** is never accidentally pushed to a public repository like *GitHub*.
